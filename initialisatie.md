@@ -47,21 +47,33 @@ Gebruik Bootstrap om een eenvoudig voorbeeld van een pagina met een grid te make
 // src/App.js
 
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+
 
 function App() {
   return (
-    <Container>
-      <Row>
-        <Col>
-          <h1>Welkom bij mijn React-Bootstrap Voorbeeld</h1>
-        </Col>
-      </Row>
-      <Row>
-        <Col xs={6}>Links</Col>
-        <Col xs={6}>Rechts</Col>
-      </Row>
-    </Container>
+  <>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        1 of 2
+      </div>
+      <div class="col">
+        2 of 2
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        1 of 3
+      </div>
+      <div class="col">
+        2 of 3
+      </div>
+      <div class="col">
+        3 of 3
+      </div>
+    </div>
+  </div>
+  </>
   );
 }
 
