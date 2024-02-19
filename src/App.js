@@ -1,15 +1,15 @@
 import React from 'react';
-import Accordion from './components/Accordion'; 
 import './App.css';
+import Grid from './components/Grid';
 
 function App() {
   return (
     <>
     <div className="App">
       <header className="App-header">
-        <h1>Accordion</h1>
+        <h1>Hallow World</h1>
       </header>
-      <Accordion></Accordion>
+      <Grid></Grid>
       </div>
     </>
   );
