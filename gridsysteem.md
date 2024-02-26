@@ -1,6 +1,6 @@
 # Bootstrap
 
-## Bootstrap en resposiviteit
+## Bootstrap en responsiviteit
 
 Bootstrap is een populair framework voor het ontwikkelen van responsieve websites. Het bevat kant-en-klare HTML-, CSS- en JavaScript-componenten die je kunt gebruiken om je website er op elk apparaat goed uit te laten zien.
 
@@ -63,6 +63,36 @@ function App() {
 
 export default App;
 ```
+
+Bootstrap gebruikt een 12-kolom grid systeem systeem waarmee je aangeeft van 1 tot 12 wat de breedte is van een kolom
+
+``` html
+<div class="col-1">
+  1 of 12
+</div>
+<div class="col-3">
+  2 of 12
+</div>
+<div class="col-8">
+  3 of 12
+</div>
+```
+
+In bovenste voorbeeld zijn de relatieve breedtes 1/12, 3/12 en 8/12.
+
+``` html
+<div class="col-lg-1">
+  1 of 12
+</div>
+<div class="col-lg-3">
+  2 of 12
+</div>
+<div class="col-lg-8">
+  3 of 12
+</div>
+```
+
+Geef je ook een specifieke breakpoint (zie hierboven) aan dan geldt dit alleen voor die breakpoint.
 
 ### Documentatie bootstrap 
 
