@@ -49,3 +49,6 @@ Voeg de volgende regel toe aan `src/index.js` om de Bootstrap CSS te importeren:
 import 'bootstrap/dist/css/bootstrap.min.css';
 ```
 
+## [Terug](README.md)
+
+## [Volgende](gridsysteem.md)

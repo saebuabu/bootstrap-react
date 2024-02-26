@@ -71,3 +71,5 @@ Raadpleeg de documentatie [Getbootstrap](https://getbootstrap.com/docs/5.0/layou
 Of raadpleeg de documentatie [React-Bootstrap](https://react-bootstrap.github.io/)  over bijvoorbeeld Bootstrap-componenten die je in combinatie met React kunt gebruiken.
 
 Of bekijk de video tutorial [Bootstrap - full course for beginners](https://www.youtube.com/watch?v=-qfEOE4vtxE)
+
+## [Terug](README.md)
