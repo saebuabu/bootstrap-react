@@ -102,6 +102,20 @@ Of raadpleeg de documentatie [React-Bootstrap](https://react-bootstrap.github.io
 
 Of bekijk de video tutorial [Bootstrap - full course for beginners](https://www.youtube.com/watch?v=-qfEOE4vtxE)
 
+### Opdracht (branch 2-kolommen)
+
+Maak in je eigen repo een nieuwe branch met de naam 2-kolommen, of switch naar deze branch en kopieer de code uit de app.js.
+
+De pagina heeft een sectie met een 2 kolom grid systeem.
+
+In de linker kolom zal een responsieve afbeelding worden getoond en in de rechterkolom worden een aantal gegevens getoond die vanuit een array die in een json object vanuit een extern bestand zal worden geladen.
+
+Beide kolommen zijn even breed.
+Het volgende responsieve gedrag wordt verwacht:
+Vanaf de breakpoint lg zullen beide kolommen naast elkaar worden getoond in gelijke breedte, maar onder dit breakpoint zullen de kolommen onder elkaar worden getoond.
+
+De uitwerking kan je vinden in de branch 2-kolommen-uitwerking.
+
 ## [Terug](README.md)
 
 ## [Volgende](accordeon.md)
