@@ -73,3 +73,6 @@ Of raadpleeg de documentatie [React-Bootstrap](https://react-bootstrap.github.io
 Of bekijk de video tutorial [Bootstrap - full course for beginners](https://www.youtube.com/watch?v=-qfEOE4vtxE)
 
 ## [Terug](README.md)
+
+## [Volgende](accordeon.md)
+
