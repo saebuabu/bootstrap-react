@@ -1,6 +1,6 @@
 # Nieuw React project
 
-## React en bootstrap
+## Stappen React Project
 
 ### Stap 1: Nieuw React-project aanmaken
 
@@ -49,51 +49,3 @@ Voeg de volgende regel toe aan `src/index.js` om de Bootstrap CSS te importeren:
 import 'bootstrap/dist/css/bootstrap.min.css';
 ```
 
-### Stap 6: Maak een Eenvoudige Pagina met Bootstrap Grid
-
-Gebruik Bootstrap om een eenvoudig voorbeeld van een pagina met een grid te maken. Hier een basisstructuur:
-
-```jsx
-// src/App.js
-
-import React from 'react';
-
-
-function App() {
-  return (
-  <>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        1 of 2
-      </div>
-      <div class="col">
-        2 of 2
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        1 of 3
-      </div>
-      <div class="col">
-        2 of 3
-      </div>
-      <div class="col">
-        3 of 3
-      </div>
-    </div>
-  </div>
-  </>
-  );
-}
-
-export default App;
-```
-
-### Documentatie
-
-Raadpleeg de documentatie [Getbootstrap](https://getbootstrap.com/docs/5.0/layout/breakpoints/) van bootstrap 5 zelf.
-
-Of raadpleeg de documentatie [React-Bootstrap](https://react-bootstrap.github.io/)  over bijvoorbeeld Bootstrap-componenten die je in combinatie met React kunt gebruiken.
-
-Of bekijk de video tutorial [Bootstrap - full course for beginners](https://www.youtube.com/watch?v=-qfEOE4vtxE)
