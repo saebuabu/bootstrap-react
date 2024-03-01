@@ -3,12 +3,19 @@ import './style.css'
 export default function Opdracht2Kolommen() {
     return (
         <>
-        <div className="container" id="opdracht2K">
+        <div className="container-fluid" id="opdracht2K">
             <div className="row">
-                <div className="col">
-                    <img src='./img/tangofrankrijk.jpg' alt='Tangoworkshop Frankrijk'></img>
+                <div className="col-6" style={{ 
+                            backgroundImage: `url("/img/tangofrankrijk.jpg")`,
+                            backgroundSize: "cover",
+                            backgroundPosition: "top"
+                            
+                        
+                        }}
+                >
+                    <p>Eerste kolom met dynamische content</p>
                 </div>
-                <div className="col">
+                <div className="col-6">
                     <p>Tweede kolom met dynamische content</p>
                 </div>
             </div>
