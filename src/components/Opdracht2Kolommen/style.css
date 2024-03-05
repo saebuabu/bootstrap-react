@@ -13,5 +13,27 @@
     min-height: 75vh;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    width: 100%;
+    padding: 1em 0;
+    border-bottom: 1px solid black;
+}
+
+ul li span {
+    display: inline-block;
+    width: 20%;
+    text-align: start;
+}
+
+ul li h3 {
+    display: inline;
+    text-align: end;
+}
+
 
 

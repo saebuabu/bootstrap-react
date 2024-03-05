@@ -1,0 +1,12 @@
+nav {
+    width: 33vw;
+}
+
+nav.navbar ul.navbar-nav {
+    width: 100%;
+
+}
+
+header div.row [class*="col"]{
+    background-color: cadetblue;
+}

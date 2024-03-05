@@ -1,6 +1,5 @@
 /* className="col" gets a specific background-color and appropriate color */
 [class*="col"] {
-  background-color: #0757a2;
-  color: #f4eded;
-  border: 1px solid #f4eded;
+  background-color: #f4eded;
+  color: #000000;
 } 
