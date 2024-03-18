@@ -31,3 +31,25 @@ zowel de fetch als de response.json() starten met een await keyword en zijn aldu
     }
   }
   ```
+
+De slider kan worden gecontroleerd met een arrow left en right button die vanuit de react-icons library gebruikt 
+kunnen worden, en worden absolute gepositioneerd ten opzichte van de container div.
+
+```jsx
+import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
+
+return (
+  <>
+     <div className="container">
+      <BsArrowLeftCircleFill
+        onClick={handlePrevious}
+        className="arrow arrow-left"
+      ></BsArrowLeftCircleFill>
+      <img src="..." > 
+      <BsArrowRightCircleFill
+        onClick={handleNext}
+        className="arrow arrow-right"
+      ></BsArrowRightCircleFill>
+  </>
+)
+```
