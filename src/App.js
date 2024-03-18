@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <h1>Image slider</h1>
       </header>
-      <ImageSlider url={'https://picsum.photos/v2/list'} limit={10} page={1}></ImageSlider>
+      <ImageSlider url={'https://picsum.photos/v2/list'} limit={10} page={12}></ImageSlider>
       </div>
     </>
   );
