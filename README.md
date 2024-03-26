@@ -8,4 +8,4 @@ Ieder onderdeel wordt in onderstaande markdown bestanden uitgelegd en iedere opd
 - [Opstarten nieuw project](initialisatie.md)
 - [Opzetten grid systeem](gridsysteem.md)
 - [Accordeon pagina](accordeon.md)
-
+- [Navbar en 2-kolommen sectie](2kolommen.md)

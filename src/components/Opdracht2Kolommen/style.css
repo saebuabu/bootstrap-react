@@ -1,0 +1,36 @@
+#opdracht2K .row .col img {
+    padding: 1em 0;
+    margin:auto;
+}
+
+#opdracht2K .row .col {
+    background-color: blanchedalmond;
+    border-left: 1px solid black;
+    min-height: 600px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    width: 100%;
+    padding: 1em 0;
+    border-bottom: 1px solid black;
+}
+
+ul li span {
+    display: inline-block;
+    width: 20%;
+    text-align: start;
+}
+
+ul li h3 {
+    display: inline;
+    text-align: end;
+}
+
+
+
