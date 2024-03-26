@@ -7,6 +7,21 @@ nav.navbar ul.navbar-nav {
 
 }
 
+nav.navbar ul.navbar-nav li {
+    border: none
+}
+
+
 header div.row [class*="col"]{
-    background-color: cadetblue;
+    background-color: #c00e40;
+    color: #fff;
+}
+
+img.logo-img {
+    margin-top: 0.5rem;
+    border-radius: 100%;
+}
+
+.nav-link {
+    color: #fff;
 }

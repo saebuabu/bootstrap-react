@@ -1,5 +1,4 @@
 #opdracht2K .row .col img {
-    max-height: 60vh;
     padding: 1em 0;
     margin:auto;
 }
@@ -7,11 +6,9 @@
 #opdracht2K .row .col {
     background-color: blanchedalmond;
     border-left: 1px solid black;
+    min-height: 600px;
 }
 
-#opdracht2K .row .col-6:nth-child(1) {
-    min-height: 75vh;
-}
 
 ul {
     list-style-type: none;

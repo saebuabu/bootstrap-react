@@ -6,16 +6,16 @@ export default function Opdracht2Kolommen() {
         <>
         <div className="container-fluid" id="opdracht2K">
             <div className="row">
-                <div className="col-6" style={{ 
+                <div className="col col-12 col-md-6" style={{ 
                             backgroundImage: `url("/img/tangofrankrijk.jpg")`,
                             backgroundSize: "cover",
-                            backgroundPosition: "top"
+                            backgroundPosition: "bottom"
                             
                         
                         }}
                 >
                 </div>
-                <div className="col-6">
+                <div className="col col-12 col-md-6">
                     <h2>Agenda</h2>
                     <ul>
                     { events.map(event => (
