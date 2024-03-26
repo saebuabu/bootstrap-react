@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useRef, useEffect, useState } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import "./style.css";
 
@@ -8,6 +8,17 @@ export default function ImageSlider({ url, limit = 10, page = 1 }) {
   const [errorMsg, setErrorMsg] = useState(null);
   const [loading, setLoading] = useState(false);
 
+  const speed = 3000;
+  let autoplayRef = useRef();
+
+  //Met een useEffect hook wordt de timeOut gezet
+  useEffect(() => {
+      clearTimeout(autoplayRef.current);
+      autoplayRef.current = setTimeout(() => {
+        handleNext();
+      }, speed);
+    });
+  
   function handleNext() {
     setCurrentSlide(currentSlide === images.length - 1 ? 0 : currentSlide + 1);
     console.log(currentSlide);
@@ -37,7 +48,7 @@ export default function ImageSlider({ url, limit = 10, page = 1 }) {
 
   useEffect(() => {
     if (url !== "") fetchImages(url);
-  }, [url]);
+  },[url]);
 
   if (loading) {
     return <div>Bezig met laden! Ogenblikje a.u.b.</div>;
