@@ -25,3 +25,9 @@ img.logo-img {
 .nav-link {
     color: #fff;
 }
+
+.nav-link.active {
+    color: #fff;
+    text-decoration: overline;
+    font-weight: 600;
+}
