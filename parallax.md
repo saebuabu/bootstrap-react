@@ -21,5 +21,3 @@ De .image-container::after pseudo-element creëert een verloop over de onderste 
 Samengevat, het parallax-effect wordt bereikt door het schalen van de secties en hun inhoud, en door het gebruik van een "sticky" afbeelding die achter de inhoud blijft terwijl je scrollt.
 
 ## [Terug](README.md)
-
-
