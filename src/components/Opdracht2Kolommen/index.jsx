@@ -1,5 +1,6 @@
 import './style.css'
 import events from './events.js';
+import StarRating from '../star-rating';
 
 export default function Opdracht2Kolommen() {
     return (
@@ -22,6 +23,7 @@ export default function Opdracht2Kolommen() {
                         <li key={event.id}>
                             <span>{event.date}</span>
                             <h3>{event.title}</h3>
+                            <span><StarRating noOfStars={5}/></span>
                         </li>
                     ))} 
                     </ul>

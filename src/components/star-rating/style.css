@@ -1,0 +1,11 @@
+.star-rating {
+    margin: 0 0 0 1em;
+}
+
+.star-rating .active {
+    color: azure;
+}
+
+.star-rating .inactive {
+    color: #000000;
+}
