@@ -17,7 +17,7 @@ export default function StarRating({noOfStars=5}) {
     }
 
     function handleMouseLeave() {
-        setRating(rating);
+        setRating(hover);
     }
 
     return <div className="star-rating">
@@ -26,7 +26,7 @@ export default function StarRating({noOfStars=5}) {
                 index += 1;
                     return <FaStar
                                 key={index}
-                                className={ index <= hover || rating ? 'active' : 'inactive'}
+                                className={ index <= hover || index <= rating ? 'active' : 'inactive'}
                                 onClick={() => handleClick(index)}
                                 onMouseEnter={() => handleMouseEnter(index)}
                                 onMouseLeave={() => handleMouseLeave()}

@@ -3,7 +3,7 @@
 }
 
 .star-rating .active {
-    color: azure;
+    color: red;
 }
 
 .star-rating .inactive {
