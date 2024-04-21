@@ -25,6 +25,10 @@ body {
   line-height: 1.6;
 }
 
+.App {
+  background-color: hsl(5, 15%, 5%);
+}
+
 a {
   color: hsl(65, 80%, 60%);
   text-decoration: none;
@@ -142,4 +146,8 @@ a:focus {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+article p, article span, article h2 {
+  color: #fff;
 }
