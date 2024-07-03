@@ -28,6 +28,9 @@ export default function NavBar() {
               <Link to="/contact" className="nav-link">
                 Contact
               </Link>
+              <Link to="/qr" className="nav-link">
+                QR-Code
+              </Link>
             </div>
           </div>
         </div>
