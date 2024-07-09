@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import LightDarkMode from '../components/LightDarkMode';
+
 
 class Footer extends Component {
+
+  
   render() {
+    const year = new Date().getFullYear();
     return (
         <>
-        <footer className='footer fixed-bottom'><LightDarkMode /></footer>
+        <footer className='footer fixed-bottom'>&copy; Abu Saebu, {year}</footer>
         </>
     );
   }

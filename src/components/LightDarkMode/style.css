@@ -1,0 +1,37 @@
+:root {
+    --background: #c00e40;
+    --secondary-color: #61dafb;
+    --text-primary: #333;
+  } 
+  
+[data-theme="light"] {
+    --background: #f0f0f0;
+    --secondary-color: #333;
+    --text-primary: #333;
+}
+
+  
+.light-dark-mode {
+    background-color: var(--background);
+    color: var(--text-primary);
+    transition: all 0.5s linear;
+  }
+  
+.light-dark-mode h1 {
+        color: var(--secondary-color);
+}   
+
+button {
+    background-color: var(--secondary-color);
+    color: var(--background);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}   
+button:hover {
+    background-color: var(--background);
+    color: var(--secondary-color);
+}

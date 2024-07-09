@@ -9,6 +9,7 @@ met bootstrap classes met 3 cols
 
 import "./style.css";
 import NavBar from "../NavBar";
+import LightDarkMode from "../LightDarkMode";
 
 function NavigatieHeader() {
   return (
@@ -16,6 +17,7 @@ function NavigatieHeader() {
       <header class="container-fluid">
         <div className="row">
           <div className="col-3">
+            <LightDarkMode></LightDarkMode>
             <NavBar></NavBar>
           </div>
           <div className="col-6">
