@@ -4,6 +4,7 @@ import events from './events.js';
 export default function Opdracht2Kolommen() {
     return (
         <>
+        <article>
         <div className="container-fluid" id="opdracht2K">
             <div className="row">
                 <div className="col col-12 col-md-6" style={{ 
@@ -17,17 +18,16 @@ export default function Opdracht2Kolommen() {
                 </div>
                 <div className="col col-12 col-md-6">
                     <h2>Agenda</h2>
-                    <ul>
+                    <ul className="event-list">
                     { events.map(event => (
-                        <li key={event.id}>
-                            <span>{event.date}</span>
-                            <h3>{event.title}</h3>
+                        <li key={event.id}><span>{event.date}</span><h3>{event.title}</h3>
                         </li>
                     ))} 
                     </ul>
                 </div>
             </div>
         </div>
+        </article>
         </>
     );
 };

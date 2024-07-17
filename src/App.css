@@ -9,13 +9,15 @@
 
 :root {
   --background: #c00e40;
-  --secondary-color: #fff;
+  --background-content: #f03f68;
+  --secondary-color: #cc0707;
   --text-primary: #9da;
   --bs-navlink-color: #fff;
 } 
 
 [data-theme="light"] {
   --background: #f0f0f0;
+  --background-content: #f7e5e5;
   --secondary-color: #222;
   --text-primary: #234;
   --bs-navlink-color: #435;

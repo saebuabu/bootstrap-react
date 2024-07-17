@@ -4,32 +4,32 @@
 }
 
 #opdracht2K .row .col {
-    background-color: blanchedalmond;
+    background-color: var(--background-content);
     border-left: 1px solid black;
     min-height: 600px;
 }
 
 
-ul {
+ul.event-list {
     list-style-type: none;
     padding: 0;
 }
 
-ul li {
+ul.event-list li {
     width: 100%;
     padding: 1em 0;
-    border-bottom: 1px solid black;
 }
 
 ul li span {
-    display: inline-block;
-    width: 20%;
-    text-align: start;
+    display: inline;
+    width: 60%;
+    text-align: end;
 }
 
 ul li h3 {
-    display: inline;
-    text-align: end;
+    display: inline-block;
+    width: 40%;
+    padding-left: 1em
 }
 
 

@@ -26,4 +26,5 @@ article {
     border: 1px solid #ccc;
     border-radius: 5px;
     min-height: 70vh;
+    background-color: var(--background-content);
 }
