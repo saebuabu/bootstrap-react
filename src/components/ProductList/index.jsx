@@ -1,6 +1,7 @@
 import './styles.css'
 import NavigatieHeader from '../NavigatieHeader';
 import React, { useEffect, useState } from 'react';
+import ScrollIndicator from '../ScrollIndicator';
 
 export default function ProductList() {
     const [loading, setLoading] = useState(false);
@@ -39,6 +40,7 @@ return (
     <>
         <NavigatieHeader />
         <h2>Product List</h2>
+        <ScrollIndicator />
         <div className="container product-list">
             {
                 products && products.length ? products.map((product) => {
