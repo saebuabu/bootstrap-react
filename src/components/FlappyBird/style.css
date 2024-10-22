@@ -1,0 +1,30 @@
+.bird {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.bird img {
+    width: 100%;
+    height: 100%;
+}
+
+.pipe {
+    position: absolute;
+    width: 100px;
+    height: 500px;
+    background-color: green;
+    z-index: 1;
+    /* position  on the bottom of the screen */
+    bottom: 0;
+    left: 33%
+}
+
+.pipe img {
+    width: 100%;
+    height: 100%;
+}
