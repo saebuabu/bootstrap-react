@@ -28,6 +28,9 @@ export default function NavBar() {
               <Link to="/contact" className="nav-link">
                 Contact
               </Link>
+              <Link to="/flappybird" className="nav-link">
+                Flappy-bird
+              </Link>
             </div>
           </div>
         </div>
