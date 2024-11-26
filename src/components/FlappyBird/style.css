@@ -25,3 +25,20 @@
     width: 100%;
     height: 100%;
 }
+
+/* make a keyframe animation that moves the h1 element from top left to top right */
+@keyframes move {
+    from {
+        top: 0;
+        left: 0;
+    }
+    to {
+        top: 0;
+        left: 100%;
+    }
+}   
+
+h1.animated {
+    position: absolute;
+    animation: move 5s infinite;
+}
